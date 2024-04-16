@@ -1,0 +1,28 @@
+{
+  "name": "dip",
+  "version": "1.0.0",
+  "description": "example for dependency inversion principle",
+  "main": "book-formatting.service.test.js",
+  "scripts": {
+    "test": "mocha after/book-formatting.service.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Technology-Agnostic/DIP.git"
+  },
+  "keywords": [
+    "solid",
+    "dependency",
+    "inversion",
+    "principle"
+  ],
+  "author": "technology agnostic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Technology-Agnostic/DIP/issues"
+  },
+  "homepage": "https://github.com/Technology-Agnostic/DIP#readme",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
